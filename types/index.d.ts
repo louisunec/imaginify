@@ -16,4 +16,3 @@ declare type UpdateUserParams = {
     photo: string;
 };
 
-declare type 

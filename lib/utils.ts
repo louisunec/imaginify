@@ -22,3 +22,4 @@ export const handleError = (error: unknown) => {
     throw new Error(`Unknow error: ${JSON.stringify(error)}`)
   }
 }
+
