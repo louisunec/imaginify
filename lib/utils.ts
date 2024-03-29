@@ -2,6 +2,7 @@ import { type ClassValue, clsx } from "clsx"
 import { twMerge } from "tailwind-merge"
 import qs from "qs"
 import { aspectRatioOptions } from "@/constants"
+import { Buffer } from "buffer";
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
